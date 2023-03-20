@@ -1,1 +1,55 @@
-body {background-color: blue;}
+:root {
+  --gray: #B7B5B5;
+  --blue: #0f5675;
+  --white: #fff;
+}
+
+header {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.top {
+  display: flex;
+  color: black;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav {
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+  justify-content: end;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 5px;
+}
+
+header h1 {
+  padding-left: 10px;
+}
+
+.banner-img {
+  background-image: url("../images/me\ lol.jpeg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.banner-img h2 {
+  position: absolute; 
+  bottom: 8px;
+  right: 16px;
+}
