@@ -58,10 +58,32 @@ section .contact{
   display: flex;
   justify-content: space-between;
   padding: 60px;
+  
 }
 
 .card {
   display: flex;
   justify-content: space-between;
   padding: 60px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+.card h3 {
+  flex-basis: 20%;
+}
+.about h3 {
+  flex-basis: 80%;
+}
+.contact h3 {
+  flex-basis: 20%;
 }
