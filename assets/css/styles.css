@@ -59,3 +59,9 @@ section .contact{
   justify-content: space-between;
   padding: 60px;
 }
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
