@@ -10,14 +10,8 @@ header {
   justify-content: space-between;
   
 }
-
-.top {
-  display: flex;
-  color: black;
-}
-
 body {
-  background-color: white;
+  background-color: rgb(230, 230, 230);
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -34,6 +28,7 @@ ul {
   list-style: none;
   display: flex;
   padding: 5px;
+  
 }
 
 header h1 {
@@ -52,4 +47,15 @@ header h1 {
   position: absolute; 
   bottom: 8px;
   right: 16px;
+}
+
+section .contact{
+  display: flex-end;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
 }
