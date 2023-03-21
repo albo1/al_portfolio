@@ -37,7 +37,6 @@ div {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  justify-content: end;
 
 }
 
@@ -77,6 +76,10 @@ section .card {
   flex-wrap: wrap;
 }
 
+p {
+  padding-left: 20px;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -84,7 +87,7 @@ section .card {
 
 }
 
-.card {
+.card1 h3 {
   display: flex;
   justify-content: space-between;
   padding: 60px;
@@ -96,9 +99,19 @@ section .card {
   justify-content: space-between;
   padding: 60px;
 }
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.card1 h3 {
+.card1 aside {
   flex-basis: 20%;
+  display: flex;
+
+}
+.card1 section {
+  flex-basis: 80%;
+  display: flex;
 }
 
 .about h3 {
@@ -116,10 +129,38 @@ section .card {
 
 .card2 h4 {
   background-image: url(../images/horizon.png);
-  display: flex;
+  width: 100%;
+  height: 200px;
+
 }
 
+.card3 h4 {
+  background-image: url(../images/led\ wall.avif);
+  width: 100%;
+  height: 200px;
 
+}
+
+.card4 h4 {
+  background-image: url(../images/calc.avif);
+  width: 100%;
+  height: 200px;
+
+}
+
+.card5 h4 {
+  background-image: url(../images/pastel.avif);
+  width: 100%;
+  height: 200px;
+
+}
+
+.card6 h4 {
+  background-image: url(../images/runbud.avif);
+  width: 100%;
+  height: 200px;
+
+}
 
 
 
