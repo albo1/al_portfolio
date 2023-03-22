@@ -107,6 +107,7 @@ p {
 .card1 aside {
   flex-basis: 20%;
   display: flex;
+  display: inline-block;
 
 }
 .card1 section {
