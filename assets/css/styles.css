@@ -164,4 +164,20 @@ p {
 
 
 
-/* @media screen and max-width */
+@media screen and (max-width: 992px) {
+  .card1 {
+  width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card1 {
+    width: 50%
+  }
+}
